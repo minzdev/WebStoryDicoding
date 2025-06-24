@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Story</title>
+
+  <!-- Leaflet CSS dari CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Tambahkan ini di dalam <head> -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#007bff">
+  <link rel="icon" href="/icons/icon-192.png" sizes="192x192">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <div style="height: 150px;"></div>
+
+  <!-- Tombol Skip ke Konten Utama -->
+  <button id="skip-link" class="skip-link" type="button">Lewati ke konten utama</button>
+
+  <!-- Header -->
+  <header role="banner">
+    <!-- Navbar akan dirender di sini -->
+  </header>
+
+
+  <!-- Konten Utama -->
+  <main id="main-content" role="main" tabindex="-1" style="view-transition-name: main-content">
+    <div id="app"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <!-- Konten footer akan diisi lewat JavaScript -->
+  </footer>
+
+  <!-- Modal Peta -->
+  <div id="map-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span id="close-map" class="close" role="button" tabindex="0" aria-label="Tutup peta modal">&times;</span>
+      <div id="map-modal-container" style="height: 400px;"></div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS dari CDN -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+</body>
+</html>

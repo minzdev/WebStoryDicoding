@@ -1,0 +1,129 @@
+/* === Navbar Style === */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 24px;
+    border-bottom: 1px solid #e0e0e0;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007aff;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li a,
+  .nav-list li button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .nav-list li button:hover,
+  .nav-list li a:hover {
+    color: #007aff;
+  }
+  
+  /* Button style for notification & install */
+  .icon-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #f1f1f1;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background-color: #ddd;
+  }
+  
+  /* === Responsive === */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      display: none;
+      background-color: #ffffff;
+      padding: 16px;
+      border-top: 1px solid #ccc;
+    }
+  
+    .nav-list.active {
+      display: flex;
+    }
+  
+    .nav-list li {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .nav-list li a,
+    .nav-list li button {
+      width: 100%;
+      text-align: left;
+    }
+    
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Tambahan untuk versi desktop */
+  @media (min-width: 769px) {
+    .navbar {
+      flex-wrap: nowrap;
+    }
+  
+    .navbar-container {
+      flex: 1;
+    }
+  
+    .nav-list {
+      margin-left: auto;
+    }
+  }
+  
