@@ -122,11 +122,11 @@ npm run build
 
 ## 📸 Screenshot
 
-| Home Page                     | Add Story                         |
-| ----------------------------- | --------------------------------- |
-| ![home](screenshots/home.png) | ![add](screenshots/add-story.png) |
+<img width="1329" height="612" alt="image" src="https://github.com/user-attachments/assets/dcc0ddaf-6c2c-4533-a9ac-9cf933be016b" />
+<img width="1344" height="504" alt="image" src="https://github.com/user-attachments/assets/b9b4c110-5af9-426f-a40e-b086a4bd0300" />
+
 
 ## 🧑‍💻 Kontributor
 
-> Dibuat oleh **Suparman Denz**  
-> Untuk Submission Dicoding: Menjadi Front-End Web Developer Expert
+> Dibuat oleh **Suparman**  
+> Untuk Submission Dicoding: Belajar Pengembangan Web Intermediate
