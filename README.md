@@ -4,7 +4,7 @@ Web Story App (STORYN AJA) adalah aplikasi berbasis web yang memungkinkan penggu
 
 ## 🚀 Demo Aplikasi
 
-[🔗 Coba versi live]([https://dynamic-hotteok-d2bcb5.netlify.app/](https://benevolent-pudding-3c84d0.netlify.app/#/))
+[🔗 Coba versi live]([https://dynamic-hotteok-d2bcb5.netlify.app/](https://benevolent-pudding-3c84d0.netlify.app/#/)
 
 ## 🎯 Fitur Utama
 
